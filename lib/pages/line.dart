@@ -20,8 +20,8 @@ class LinePainter extends CustomPainter {
       ..strokeWidth = 3.0
       ..style = PaintingStyle.stroke;
 
-    Offset p1 = Offset(0.0, size.height / 2.0);
-    Offset p2 = Offset(size.width, size.height / 2.0);
+    Offset p1 = Offset(10.0, size.height / 2.0);
+    Offset p2 = Offset(size.width - 10.0, size.height / 2.0);
     canvas.drawLine(p1, p2, paint);
   }
 

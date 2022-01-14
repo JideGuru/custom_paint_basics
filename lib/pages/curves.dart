@@ -23,7 +23,7 @@ class CurvesPainter extends CustomPainter {
     var path = Path();
     path.moveTo(0.0, 0.0);
     path.lineTo(0.0, 200.0);
-    path.quadraticBezierTo(size.width/2, 250.0, size.width, 200.0);
+    path.quadraticBezierTo(size.width / 2, 250.0, size.width, 200.0);
     path.lineTo(size.width, 0.0);
     path.close();
     canvas.drawPath(path, paint);

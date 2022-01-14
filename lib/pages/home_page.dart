@@ -41,7 +41,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
     return Scaffold(
       // backgroundColor: Colors.blue,
       appBar: AppBar(
-        title: Text('Custom Paint'),
+        title: Text('Custom Paint Basics'),
         bottom: TabBar(
           isScrollable: true,
           controller: controller,

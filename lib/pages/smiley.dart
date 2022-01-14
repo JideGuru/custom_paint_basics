@@ -44,8 +44,9 @@ class SmileyPainter extends CustomPainter {
     // Draw Mouth
     Path mouthPath = Path()
       ..moveTo(size.width / 2.9, size.height / 1.8)
-      ..quadraticBezierTo(size.width / 2.0, size.height/ 1.6, size.width / 1.5, size.height/ 1.8);
-      // ..lineTo(size.width / 1.5, size.height/ 1.8);
+      ..quadraticBezierTo(size.width / 2.0, size.height / 1.6, size.width / 1.5,
+          size.height / 1.8);
+    // ..lineTo(size.width / 1.5, size.height/ 1.8);
     canvas.drawPath(mouthPath, paint);
   }
 
